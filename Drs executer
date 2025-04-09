@@ -1,0 +1,12 @@
+local Library = loadstring(game:HttpGet("https://raw.githubuser..."))()
+local Window = Library.CreateLib("DRS EXECUTER", "Synapse")
+
+local Tab = Window:NewTab("DRS")
+local Section = Tab:NewSection("Z")
+
+Section:NewLabel("INFINITE YIELD")
+
+
+Section:NewButton("INFINITE YIELD", "OG", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/DarkNetworks/Infinite-Yield/main/latest.lua'))()
+end)
